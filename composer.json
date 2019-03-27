@@ -9,7 +9,7 @@
         }
     ],
     "require": {
-        "php": "^7.0",
+        "php": "^7.2",
         "ext-json": "*",
         "ext-curl": "*"
     },
@@ -18,7 +18,8 @@
     },
     "autoload": {
         "psr-4": {
-            "NFTech\\ASR\\": "src"
+            "QCloud\\": "src/QCloud"
         }
-    }
+    },
+
 }
